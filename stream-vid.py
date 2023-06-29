@@ -42,7 +42,7 @@ def play_webcam(conf, model):
     except Exception as e:
         st.sidebar.error("Error loading video: " + str(e))
 
-    return image
+    # return image
 
 
 model = YOLO('yolov8n-seg.pt')
